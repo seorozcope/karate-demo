@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+    id "idea"
+}
+
+sourceCompatibility = JavaVersion.VERSION_16
+targetCompatibility = JavaVersion.VERSION_16
+
+repositories {
+    mavenCentral()
+}
+
+
+dependencies() {
+    implementation 'com.intuit.karate:karate-core:1.2.0'
+    testImplementation 'com.intuit.karate:karate-apache:0.9.6'
+    testImplementation 'com.intuit.karate:karate-junit4:1.2.0'
+}
+
